@@ -7,16 +7,18 @@
 // Autor: Edgar Joel Martín Melián
 // Correo: alu0101434698@ull.edu.es
 // Fecha: 06/10/2021
-// Archivo cya-P02-Strings.cc: programa cliente.
-//          Contiene la función main del proyecto que usa las clases X e Y
-//          que realizan el trabajo de leer el fichero de entrada
-//          identificando patrones en el texto que dan lugar
-//          al fichero de salida.
+// Archivo tools.cc: 
+//          Contiene las definiciones de la función de lectura/escriutura de ficheros
+//          y la función para el --help por línea de comandos.
 // Referencias:
 //          Enlaces de interés
 // Historial de revisiones
 //          06/10/2021 - Creación (primera versión) del código
-//   
+//          07/10/2021 - Continuación de programación
+//          11/10/2021 - Última revisión
+// Bugs:
+//          - Repite dos veces la última línea del fichero de lectura.
+ 
 
 
 #include <iostream>
@@ -84,7 +86,7 @@ void Function(const std::string kInputFileName, const std::string kOutputFileNam
                 output_file << chain.Prefijos() << std::endl;
                 break;
             case 4:
-                
+                output_file << chain.Sufijos() << std::endl;
                 break;
             case 5:
                 output_file << chain.Subcadenas() << std::endl;

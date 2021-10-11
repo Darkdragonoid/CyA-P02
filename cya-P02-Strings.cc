@@ -8,15 +8,16 @@
 // Correo: alu0101434698@ull.edu.es
 // Fecha: 06/10/2021
 // Archivo cya-P02-Strings.cc: programa cliente.
-//          Contiene la función main del proyecto que usa las clases X e Y
-//          que realizan el trabajo de leer el fichero de entrada
+//          Contiene la función main del proyecto que usa la funcion
+//          que realiza el trabajo de leer el fichero de entrada
 //          identificando patrones en el texto que dan lugar
 //          al fichero de salida.
 // Referencias:
 //          Enlaces de interés
 // Historial de revisiones
 //          06/10/2021 - Creación (primera versión) del código
-//          
+//          10/10/2021 - Revisión de errores
+//          11/10/2021 - Última revisión
 
 #include <iostream>
 #include "tools.h"

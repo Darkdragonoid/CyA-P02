@@ -23,4 +23,4 @@ tools.o : tools.cc tools.h
 
 .PHONY: clean
 clean:
-	rm -f *.o $(TARGET)
+	rm -f *.o p02_strings
