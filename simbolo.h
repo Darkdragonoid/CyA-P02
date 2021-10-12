@@ -24,6 +24,9 @@
 #include <iostream>
 #include <string>
 
+/** Clase Simbolo:
+ * Esta clase define el símbolo del cual pertencerá a un alfabeto.
+ */
 class Simbolo{
     private:
         std::string data_;

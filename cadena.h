@@ -29,6 +29,9 @@
 
 #pragma once
 
+/** Clase Cadena:
+ * Esta clase se usa para separar la cadena de su alfabeto.
+ */
 class Cadena{
     private:
         Alfabeto alphabet_;

@@ -25,7 +25,12 @@
 #include <vector>
 
 #include "simbolo.h"
-
+/** Clase Alfabeto:
+ * Esta clase está compuesta por un vector de objetos de la clase Símbolo para definir el alfabeto y un entero
+ * llamado size_ para definir la longitud del alfabeto.
+ * Se creó porque una cadena tiene que pertenecer a un alfabeto.
+ * También incluye funciones como "verify" que comprueba que la cadena contiene los símbolos de un alfabeto.
+ */
 class Alfabeto{
     private:
         std::vector<Simbolo> alphabet_;
